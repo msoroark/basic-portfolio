@@ -1,13 +1,10 @@
 * {
-	
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	margin: 0px;
 }
 
-
 body {	
 	background-image: url(brickwall.png);
-
 }
 
 header {
@@ -16,18 +13,12 @@ header {
 	margin: 0px;
 	height: 65px;
 	clear: both;
-
-}
-
-.container {
-	width: 960px;
-	margin: 0px 115px 0px 115px;
 }
 
 h2 {
 	background-color: #62a8a4;
 	color: #ffffff;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 	width: 250px;
 	height: 45px;
 	text-align: center;
@@ -36,15 +27,73 @@ h2 {
 	border-bottom: 5px;
 	border-color: #dddddd;
 	float: left;
+	font-weight: bold;
+}
 
+section  {
+	background-color: #ffffff;
+	width: 650px;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	float: left;
+}
+
+p {
+	margin: 20px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+form {
+	margin: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777;
+	font-size: 15px;
+}
+
+input {
+	color: #777;
+	font-size: 12px;
+	width: 575px;
+	margin: 10px 0px;
+	height: 20px;	
+}
+
+footer {
+	width: 100%;
+	position: fixed;
+	font-size: 13px;
+	bottom: 0;
+	margin-top: 20px;
+	background-color: #777777;
+	border-top: 3px solid #62a8a4;
+	color: #ffffff;
+	height: 50px;
+	text-align: center;
+	padding-top: 33px;
+	clear: both;
+}
+
+
+.profile {
+	height: 200px;
+	width: 200px;
+	margin: 5px 10px 5px 20px;
+	float: left;
+}
+
+.container {
+	width: 960px;
+	margin: 0px 115px 0px 115px;
 }
 
 .nav {
 	float: right;
 	text-decoration: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	margin: 23px 10px 10px;
-
 }
 
 .bordered {
@@ -54,19 +103,8 @@ h2 {
     padding-right: 18px;
 }
 
-
-section  {
-	background-color: #ffffff;
-	width: 650px;
-	margin-top: 20px;
-	padding-bottom: 5px;
-	float: left;
-
-}
-
-
 .bottomborder {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 	background-color: #ffffff;
 	font-size: 30px;
 	padding: 0px;
@@ -79,30 +117,17 @@ section  {
 	clear: both;
 }
 
-img {
-	height: 200px;
-	width: 200px;
-	margin: 5px 10px 5px 20px;
-	float: left;
-}
-
-p {
-	margin: 20px;
-	color: #777777;
-
-}
-
 .contact {
 	width: 270px;
 	height: 180px;
 	margin-top: 20px;
 	float: right;
 	text-align: center;
-
+	font-weight: bold;
 }
 
 .contact h3 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 	color: #62a8a4;
 	font-size: 21px;
 	margin: 10px 10px;
@@ -115,25 +140,47 @@ p {
 	width: 70px;
 	height: 70px;
 	margin: 10px;
-
-
-
+	float: left;
 }
 
-footer {
-	width: 100%;
+.message {
+	padding-bottom: 170px;
+}
+
+.button {
+	width: 115px;
+	height: 40px;
+	background-color: #62a8a4;
+	color: #fff;
+	margin: 0px 20px 0px 0px;
+	font-size: 16px;
+}
+
+.portfolio-img {
+	width: 240px;
+	height: 180px;
+	margin: 0px 20px 10px 50px;
+}
+
+.portfolio-item {
+	position: relative;
+	display: inline-block;
+}
+
+.portfolio-label {
 	position: absolute;
-	font-size: 13px;
-	bottom: 0;
-	margin-top: 20px;
-	background-color: #777777;
-	border-top: 3px solid #62a8a4;
-	color: #ffffff;
-	height: 50px;
+	bottom: 30px;
+	left: 50px;
+	font-size: 20px;
+	width: 240px;
+	height: 38px;
+	padding-top: 20px;
+	background-color: #62a8a4;
+	color: #fff;
 	text-align: center;
-	padding-top: 33px;
-	clear: both;
-
+	z-index: 1;
+	opacity: 0.9;
 }
+
 
 
